@@ -17,7 +17,7 @@ const routes = {
   ["ecr." + xcqdocker.top]: "https://public.ecr.aws",
 
   // staging
-  ["docker-staging." + CUSTOM_DOMAIN]: dockerHub,
+  ["docker-staging." + xcqdocker.top]: dockerHub,
 };
 
 function routeByHosts(host) {
